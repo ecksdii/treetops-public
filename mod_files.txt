@@ -1,6 +1,8 @@
 add mod.ini
+add main/raw/gedit/w1r03_gedit.pac
 add main/raw/gedit/w2r01_gedit.pac
 add main/raw/gedit/w8d01_gedit.pac
+add main/raw/gedit/w8d05_gedit.pac
 add main/raw/script/script_w1r03.pac
 add main/raw/script/script_w2r01.pac
 add music/reignited/raw/general/resident_general/bgm.acb
