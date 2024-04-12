@@ -1,0 +1,1159 @@
+Code "Tree Tops - Glossary text" by "ecksdii"
+//
+    #lib "Converse"
+//
+{
+    Converse.Redirect("gls_island_1", "Tree Tops");
+    Converse.Redirect("gls_island_2", "Toasty");
+    Converse.Redirect("gls_island_3", "!!!");
+}
+Code "Tree Tops - Jukebox text" by "ecksdii"
+//
+    #lib "Converse"
+//
+{
+    Converse.Redirect("musicselect_songtitle_01", "Spyro the Dragon Theme");
+    Converse.Redirect("musicselect_songtitle_02", "Artisans");
+    Converse.Redirect("musicselect_songtitle_03", "Stone Hill");
+    Converse.Redirect("musicselect_songtitle_04", "Town Square");
+    Converse.Redirect("musicselect_songtitle_05", "Dark Hollow");
+    Converse.Redirect("musicselect_songtitle_06", "Peace Keepers");
+    Converse.Redirect("musicselect_songtitle_07", "Cliff Town");
+    Converse.Redirect("musicselect_songtitle_08", "Ice Cavern");
+    Converse.Redirect("musicselect_songtitle_09", "Magic Crafters");
+    Converse.Redirect("musicselect_songtitle_10", "Alpine Ridge");
+    Converse.Redirect("musicselect_songtitle_11", "High Caves");
+    Converse.Redirect("musicselect_songtitle_12", "Wizard Peak");
+    Converse.Redirect("musicselect_songtitle_13", "Crystal Flight");
+    Converse.Redirect("musicselect_songtitle_14", "Beast Makers");
+    Converse.Redirect("musicselect_songtitle_15", "Terrace Village");
+    Converse.Redirect("musicselect_songtitle_16", "Misty Bog");
+    Converse.Redirect("musicselect_songtitle_17", "Wild Flight");
+    Converse.Redirect("musicselect_songtitle_18", "Dream Weavers");
+    Converse.Redirect("musicselect_songtitle_19", "Lofty Castle");
+    Converse.Redirect("musicselect_songtitle_20", "Haunted Towers");
+    Converse.Redirect("musicselect_songtitle_21", "Gnasty's World / Toasty");
+    Converse.Redirect("musicselect_songtitle_22", "Gnorc Cove");
+    Converse.Redirect("musicselect_songtitle_23", "Gnasty's Loot");
+    Converse.Redirect("musicselect_songtitle_24", "Credits");
+}
+Code "Tree Tops - Main text" by "ecksdii"
+//
+    #lib "Converse"
+//
+{
+    Converse.Redirect("cyber_100_percent", "Congratulations!");
+    Converse.Redirect("cyber_100_percent_body", "You have fully completed all available Cyber Space stages!\n\nThe ability to swap Characters in the Open Zone has now been unlocked and can be accessed by finding Elder Koco.");
+	
+    Converse.Redirect("cyber_extreme", "Seeking a bigger challenge?");
+    Converse.Redirect("cyber_extreme_body", "Try enabling the 'Always Use Extreme Rank Times' code in HedgeModManager!\n\nThese rank times have been specifically designed around the Power Boost and Spin Dash, so it's recommended to have those unlocked beforehand.\n\nOr you can be hardcore and try to get the S ranks without them, you do you.");    
+
+    Converse.Redirect("cyber_hint_switch_count3", "In this level, the goal ring will appear upon activating 3 Switches.");
+    Converse.Redirect("cyber_hint_switch_count5", "In this level, the goal ring will appear upon activating 5 Switches.\n\nSome switches are protected by Egg Robos and/or hidden Crabmeats.");   
+	
+    Converse.Redirect("hello_dataminers", "Oh, my PKCells...");
+	
+    Converse.Redirect("thanks_for_playing", "Thanks for Playing!");
+    Converse.Redirect("thanks_for_playing_body", "I hope you've enjoyed this level pack!\n\nThe ability to switch islands has now been unlocked, so go back and complete the remaining Challenges will ya?");
+	
+    Converse.Redirect("toasty_miniboss_ninja", "Defeat KUNOICHI");
+    Converse.Redirect("toasty_miniboss_sumo", "Defeat SUMO");
+    Converse.Redirect("toasty_miniboss_tower", "Defeat THE SILVER HAMMER");
+	
+    Converse.Redirect("treetops_hint_launch", "Ramp Launching");
+    Converse.Redirect("treetops_hint_launch1_body", "Holding down <image name=\"button_right_trigger_Wh\" /> while running off an edge will launch Sonic while fully retaining his forward momentum for a short time.\n\nLaunching can be performed on any inclines that are steep enough, plenty of which can be found on the Island.");
+    Converse.Redirect("treetops_hint_launch2_body", "Objects like wooden spikes, hut roofs, broken stone walls and some parts of trees can also be used for Ramp Launching.");
+	
+    Converse.Redirect("treetops_objective_challenge", "Complete the Challenges");
+    Converse.Redirect("treetops_objective_island", "Island Unlocked");
+    Converse.Redirect("treetops_objective_island_body", "Restoring power to the island has re-activated all Cyber Space portals and disabled all barriers.\n\nAction Chain Challenges will unlock upon reloading the island (dying, entering Cyber Space, reloading the save).");
+    Converse.Redirect("treetops_objective_spring", "Head to the top of the Spawn Tree");
+    Converse.Redirect("treetops_objective_switch", "Activate the Switches");
+    Converse.Redirect("treetops_objective_switch_body", "The island isn't completely operational in its current state.\nFind the 3 Ancient Switches to restore power to the island.");
+    Converse.Redirect("treetops_objective_switch_portal", "The Cyber Space portals cannot function until power to the Island is restored.");   
+}
+Code "Tree Tops - Map text" by "ecksdii"
+//
+    #lib "Converse"
+//
+{
+    Converse.Redirect("obj_ilf_clearstate_010", "Leaving Tree Tops");
+    Converse.Redirect("obj_ilf_clearstate_020", "???");
+}
+Code "Tree Tops - Tutorial text" by "ecksdii"
+//
+    #lib "Converse"
+//
+{
+    Converse.Redirect("toast_get_lightpillars_add", "Cleared all Missions!");
+    Converse.Redirect("ko1600_050", "What may I do for you?");
+    Converse.Redirect("tu1000_660", "Character Swap");
+    Converse.Redirect("tu1000_665", "While playing as the other Characters, Cyber Space will be unavailable and some Challenges may not be beatable.");
+}
+
+Code "Jukebox parameters (modified, from Stillness & Motion)" by "M&M & Hyper"
+//
+	#include "Reflection" noemit
+
+	#lib "Reflection"
+	#lib "CustomMusicParameter"
+//
+{
+	var CustomMusicParameterInfo = Reflection.GetDataInfo<CustomMusicParameter.Root>("custom_music_param");
+
+	if (CustomMusicParameterInfo.pData == null)
+		return;
+
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[6].cueName, "bgm_w8d01");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[9].cueName, "bgm_w9d03");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[10].cueName, "bgm_w1r02_6");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[11].cueName, "bgm_w8d05");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[20].cueName, "bgm_w2r01_1");
+}
+
+Code "LuaSound" by "ecksdii" does "Loads .level files related to sound"
+//
+	#include "BlackboardStatus" noemit
+	
+	#lib "Lua"
+//
+{	
+    // credit to Weezley for the original 'Fix Another Story Stages Sound' code
+    Lua.Call("LoadLevel", "extra_sound");
+    if (IS_WORLD_FLAG(IsCyberSpace))
+	{
+		// update 3 object SFX
+		Lua.Call("LoadLevel", "extra_cyber_sound");
+		
+		// island SFX
+		Lua.Call("LoadLevel", "w1_sound");
+		Lua.Call("LoadLevel", "w2_sound");
+		Lua.Call("LoadLevel", "w3_sound");
+	}	
+    if (!IS_WORLD_FLAG(IsCyberSpace))
+	{
+		// cyber music and SFX
+		Lua.Call("LoadLevel", "w6_sound");
+	}
+}
+
+Patch "Always Unlocked Arcade Mode" in "Cheats/UI" by "Hyper" 
+{
+    WriteNop
+    (
+        /* 0x140ACF3DF */
+        ScanSignature
+        (
+            "\x74\x57\x4C\x8B\x7B\x08",
+            "xxxxxx"
+        ),
+
+        2
+    );
+}
+
+Patch "Show Missions in Arcade Mode" in "UI" by "Hyper" does "Shows the missions in the results screen when completing Cyber Space in Arcade Mode." 
+{
+    /* 0x14093798D */
+    long addr = ScanSignature
+    (
+        "\x44\x38\xBB\x6C\x02\x00\x00",
+        "xxxxxxx"
+    );
+
+    if (addr == 0)
+        return;
+
+    WriteProtected<byte>(addr, Assemble("mov byte ptr [rbx + 0x26C], 0"));
+    WriteProtected<byte>(addr + 7, 0xEB);
+}
+
+Code "Reduced Homing Delay (modified)" in "Physics" by "Hyper" does "Reduces the delay after performing a homing attack, allowing you to perform chained homing attacks much quicker." 
+//
+    #lib "BlackboardStatus"
+    #lib "HMM"
+
+    bool isMyCodeAlreadyActive = HMM.GetCodes().Contains("Physics/Reduced Homing Delay");
+	
+    static bool _isInitialised = false;
+    static bool _isSuper = false;
+
+    static float _delay = 0.2f;
+//
+{
+    if (!_isInitialised && !isMyCodeAlreadyActive)
+    {
+        fixed (bool* p_isSuper = &_isSuper)
+        fixed (float* p_delay = &_delay)
+        {
+            WriteAsmHook
+            (
+                $@"
+                    mov   rdx, {(long)p_isSuper}
+                    cmp   byte ptr [rdx], 0
+                    jnz   isSuper
+                    mov   rdx, {(long)p_delay}
+                    movss xmm2, dword ptr [rdx]
+                    jmp   exit
+                isSuper:
+                    movss xmm2, dword ptr [r15 + rdi + 0x18]
+                exit:
+                    mov   edx, eax
+                    mov   rcx, r13
+                    mov   dword ptr [rbp + 0x57 + 0x28], eax
+                ",
+
+                /* 0x14082379C */
+                ScanSignature
+                (
+                    "\xF3\x41\x0F\x10\x54\x3F\x18",
+                    "xxxxxxx"
+                ),
+
+                HookBehavior.Replace
+            );
+        }
+
+        _isInitialised = true;
+    }
+
+    _isSuper = BlackboardStatus.IsSuper();
+}
+
+Patch "Disable Hit Stop (modified)" in "Gameplay" by "Hyper" does "Disables the slow motion effect after performing attacks." 
+//
+    #lib "HMM"
+
+    bool isMyCodeAlreadyActive = HMM.GetCodes().Contains("Gameplay/Disable Hit Stop");
+//
+{
+    if (!isMyCodeAlreadyActive)
+    {
+		WriteAsmHook
+		(
+			$@"
+				xorps  xmm3, xmm3
+				movaps xmm7, xmm3
+				mov    r8, [rcx + 0xB0]
+				mov    esi, edx
+				add    rax, r8
+			",
+
+			/* 0x147689E7F */
+			ScanSignature
+			(
+				"\x0F\x28\xFB\x4C\x8B\x81\xB0\x00\x00\x00",
+				"xxxxxxxxxx"
+			),
+
+			HookBehavior.Replace
+		);
+	}
+}
+
+Patch "Hide New Game+" by "Hyper"
+{
+    /* 0x140ACF05D */
+    long sig = ScanSignature
+    (
+        "\x0F\x85\xC1\x00\x00\x00\x33\xD2",
+        "xxxxxxxx"
+    );
+
+    if (sig == 0)
+        return;
+
+    WriteProtected<byte>(sig, 0xEB, 0x7B);
+}
+
+Code "Enable Dodge and Parry" in "Gameplay/Cyber Space/Skills" by "Hyper" does "Enables dodging and parrying in Cyber Space for potentially recovering from a fall." 
+//
+    #include "BlackboardStatus" noemit
+
+    #lib "HMM"
+    #lib "Player"
+    #lib "Time"
+
+    #import "States"
+
+    static bool _isInitialised = false;
+    static bool _isDodgeAlways = false;
+    static bool _isDodgeAnalog = false;
+    static bool _isInputBuffered = false;
+    static bool _isParried = false;
+
+    static float _dodgeTimer = 0.0f;
+    static float _dodgeTimerThreshold = 0.08f;
+
+    static void PerformBumperActions(bool in_isRight = false)
+    {
+        var state = Sonic.StateID.StateAvoid;
+
+        if (Player.Status.IsSpecialAction())
+        {
+            _dodgeTimer = 0.0f;
+            _isInputBuffered = false;
+            _isParried = false;
+            return;
+        }
+
+        if (Player.Status.IsGrounded())
+        {
+            if (!_isDodgeAlways)
+                return;
+            
+            // Prevent dodge spam on input hold.
+            if (Player.State.GetCurrentStateID<Sonic.StateID>() == Sonic.StateID.StateAvoid)
+                return;
+            
+            if (Player.Kinematics.GetHorizontalMagnitude() >= 15.0f)
+            {
+                state = in_isRight ? Sonic.StateID.StateRightStepRun : Sonic.StateID.StateLeftStepRun;
+
+                if (IS_STATE_FLAG(IsIdle))
+                    state = in_isRight ? Sonic.StateID.StateRightStep : Sonic.StateID.StateLeftStep;
+            }
+        }
+        
+        if (Player.Input.IsDown(Player.InputActionType.PlayerLeftStep) &&
+            Player.Input.IsDown(Player.InputActionType.PlayerRightStep))
+        {
+            if (!_isInputBuffered)
+            {
+                Player.State.SetState<Sonic.StateID>(Sonic.StateID.StateParry);
+                _isInputBuffered = true;
+                _isParried = true;
+            }
+
+            return;
+        }
+        else if (Player.State.GetCurrentStateID<Sonic.StateID>() != Sonic.StateID.StateParry)
+        {
+            _isInputBuffered = false;
+        }
+
+        // Prevent air dodging immediately after air parrying.
+        if (_isParried && (Player.Input.IsDown(Player.InputActionType.PlayerLeftStep) ||
+            Player.Input.IsDown(Player.InputActionType.PlayerRightStep)))
+        {
+            return;
+        }
+        else
+        {
+            _isParried = false;
+        }
+
+        if (Player.Input.IsDown(in_isRight
+            ? Player.InputActionType.PlayerRightStep
+            : Player.InputActionType.PlayerLeftStep))
+        {
+            _dodgeTimer += Time.GetDeltaTime();
+
+            if (_dodgeTimer >= _dodgeTimerThreshold)
+            {
+                if (!_isDodgeAnalog)
+                {
+                    var dir = StateAvoidParameter.GetDirectionRelativeToCameraPlane(in_isRight);
+
+                    Player.State.AddStateParameter<StateAvoidParameter>(new StateAvoidParameter(dir));
+                }
+
+                Player.State.SetState<Sonic.StateID>(state);
+
+                _dodgeTimer = 0.0f;
+            }
+        }
+    }
+//
+{
+    if (!_isInitialised)
+    {
+        _isDodgeAlways = HMM.GetCodes().Contains("Gameplay/Skills/Always Dodge with Side Step");
+        _isDodgeAnalog = HMM.GetCodes().Contains("Gameplay/Skills/Always Dodge in Stick Direction");
+        _isInitialised = true;
+    }
+    
+    if (!IS_WORLD_FLAG(IsCyberSpace))
+        return;
+
+    SET_COMBAT_FLAG(IsParry, true);
+
+    PerformBumperActions();
+    PerformBumperActions(true);
+}
+
+
+Code "[Cyber Space] Enable Terrain Flinging" in "Gameplay" by "Hyper" does 
+/*
+Allows Sonic to fling off of terrain in Cyber Space.
+
+Notes;
+- This does not allow Sonic to perform air tricks from terrain, use the '[Cyber Space] Enable Air Tricks from Terrain' code to do so.
+*/
+//
+    #lib "Reflection"
+    #lib "SonicParameters"
+//
+{
+    var SonicParametersInfo = Reflection.GetDataInfo<SonicParameters.Root>("player_common");
+
+    if (SonicParametersInfo.pData == null)
+        return;
+
+    SonicParametersInfo.pData->cyberspace.modePackage.tumble = SonicParametersInfo.pData->forwardView.modePackage.tumble;
+}
+
+Code "[Cyber Space] Enable Air Tricks from Terrain" in "Gameplay" by "Hyper" does 
+/*
+Enables air tricks only when flinging off terrain in Cyber Space.
+
+Notes;
+- This code requires '[Cyber Space] Enable Terrain Flinging' to work.
+*/
+//
+    #include "BlackboardStatus" noemit
+
+    #lib "Player"
+//
+{
+    if (!IS_WORLD_FLAG(IsCyberSpace))
+        return;
+    
+    if (!Player.Status.IsGrounded() && Player.State.GetCurrentStateID<Sonic.StateID>() == Sonic.StateID.StateBumpJump)
+        SET_WORLD_FLAG(IsAirTrick, true);
+}
+
+Code "[Cyber Space] Enable Air Tricks from Traversal Objects" in "Gameplay" by "Hyper" does 
+/*
+Enables air tricks when using traversal objects in Cyber Space.
+
+Affected objects;
+- Balloons
+- Dash Rings
+- Jump Boards
+- Upreels
+*/
+//
+    #include "BlackboardStatus" noemit
+
+    #lib "Player"
+//
+{
+    if (!IS_WORLD_FLAG(IsCyberSpace))
+        return;
+    
+    if (IS_STATE_FLAG(IsSpringJump) || Player.State.GetCurrentStateID<Sonic.StateID>() == Sonic.StateID.StateJumpBoardLaunch)
+        SET_WORLD_FLAG(IsAirTrick, true);
+}
+
+
+Patch "Disable Jump Board Paths on Islands" in "Gameplay" by "Hyper" does "Stops the player locking to a path when hitting jump boards on the islands, allowing him to fling off them like ramps." 
+//
+    #lib "Bridge.DisableJumpBoardPaths"
+//
+{
+    Bridge.DisableJumpBoardPaths.IsDisabledOnIslands = true;
+}
+
+Patch "Always Respawn Enemies" in "Enemy" by "Hyper" does "Always respawns enemies and guardians when loading back into islands." 
+//
+    #lib "Memory"
+//
+{
+    Memory.WriteForceJump
+    (
+        /* v1.41: 0x1492CA7F4 */
+        ScanSignature
+        (
+            "\x0F\x88\x78\x01\x00\x00",
+            "xxxxxx"
+        )
+    );
+}
+
+Patch "Disable Bird Height Limit" in "Gameplay" by "Hyper"
+{
+    /* 0x1404904E8 */
+    var sig = ScanSignature
+    (
+        "\x77\x19\xE8\xCC\xCC\xCC\xCC\xBA\x0B\x00\x00\x00",
+        "xxx????xxxxx"
+    );
+
+    if (sig == 0)
+        return;
+
+    WriteProtected<byte>(sig, 0xEB);
+}
+Patch "Disable Guardian Introductions (modified)" in "Enemy" by "Hyper" does "Disables the sequence that zooms the camera into guardians and displays their name." 
+//
+    #lib "Memory"
+//
+{
+	// Codes for unused Guardians have been removed, so I can save the precious 3 kilobytes of space.
+
+    // Ninja
+    WriteProtected<byte>
+    (
+        /* 0x14062E308 */
+        ScanSignature
+        (
+            "\xBA\x02\x00\x00\x00\x48\x8B\xC8\xE8\xCC\xCC\xCC\xCC\x48\x8B\x5F\x18\xE8\xCC\xCC\xCC\xCC\x48\x8B\xD0\x48\x8B\xCB\xE8\xCC\xCC\xCC\xCC\x48\x8B\xC8",
+            "xxxxxxxxx????xxxxx????xxxxxxx????xxx"
+        ),
+
+        Assemble("mov edx, 3")
+    );
+
+    // Tower
+    Memory.WriteForceJump
+    (
+        /* 0x14067C537 */
+        ScanSignature
+        (
+            "\x0F\x84\x00\x00\x00\x00\x48\x8B\x5E\x18\x0F\x29\x74\x24\x00\xE8\x00\x00\x00\x00\x48\x8B\xD0\x48\x8B\xCB\xE8\x00\x00\x00\x00\x48\x8B\x88\x00\x00\x00\x00",
+            "xx????xxxxxxxx?x????xxxxxxx????xxx????"
+        )
+    );
+
+    // Sumo
+    WriteProtected<byte>
+    (
+        /* 0x1406FA136 */
+        ScanSignature
+        (
+            "\x74\x15\x48\x8B\xCE\xE8\x00\x00\x00\x00\xBA\x00\x00\x00\x00\x48\x8B\xC8\xE8\x00\x00\x00\x00\x48\x8B\x5E\x18\xE8\x00\x00\x00\x00\x48\x8B\xD0\x48\x8B\xCB\xE8\x00\x00\x00\x00\x48\x8B\xC8\xE8\x00\x00\x00\x00\x84\xC0\x75\x12\x48\x8B\xCE\xE8\x00\x00\x00\x00\x33\xD2\x48\x8B\xC8\xE8\x00\x00\x00\x00\x0F\x28\x74\x24\x00\x4C\x8D\x5C\x24\x00\x49\x8B\x5B\x10\x32\xC0\x49\x8B\x73\x18\x49\x8B\xE3\x5F\xC3\xCC\xCC\x48\x89\x5C\x24\x00\x48\x89\x74\x24\x00",
+            "xxxxxx????x????xxxx????xxxxx????xxxxxxx????xxxx????xxxxxxxx????xxxxxx????xxxx?xxxx?xxxxxxxxxxxxxxxxxxxxx?xxxx?"
+        )
+        + 0x0A,
+
+        Assemble("mov edx, 8")
+    );
+
+}
+
+Patch "Boss Select (modified)" by "Hyper"
+{
+    // Disable New Game.
+    WriteNop
+    (
+        /* 0x1409E9B82 */
+        ScanSignature
+        (
+            "\xE8\xCC\xCC\xCC\xCC\x48\x8D\x55\xD8\x49\x8B\xCF\xE8\xCC\xCC\xCC\xCC\x48\x8D\x55\xC0\x48\x8B\xC8\xE8\xCC\xCC\xCC\xCC\x48\x8B\x4D\xE8\x4C\x8D\x2D",
+            "x????xxxxxxxx????xxxxxxxx????xxxxxxx"
+        ),
+        
+        5
+    );
+
+}
+
+Code "EnemySniperConfig-02322123092023"
+//
+	#include "Reflection" noemit
+	#lib "Reflection"
+
+	#lib "EnemySniperConfig"
+//
+{
+	var EnemySniperConfigInfo = Reflection.GetDataInfo<EnemySniperConfig.Root>("enm_sniper");
+
+	if (EnemySniperConfigInfo.pData == null)
+		return;
+
+	RFL_SET_PARAM(EnemySniperConfigInfo, commonParams.eyesightDistancePatrol, 60.0f);
+	RFL_SET_PARAM(EnemySniperConfigInfo, commonParams.eyesightDistanceBattle, 70.0f);
+	RFL_SET_PARAM(EnemySniperConfigInfo, commonParams.guardShotWaitTime, 0,25.0f);
+}
+
+Library "EnemySniperConfig"
+{
+    using System.Numerics;
+    using System.Runtime.InteropServices;
+
+    [StructLayout(LayoutKind.Explicit, Size = 28)]
+    public struct RingParameter
+    {
+        [FieldOffset(0)]  public float suckedTime;
+        [FieldOffset(4)]  public float launchAngle;
+        [FieldOffset(8)]  public float launchMaxSpeed;
+        [FieldOffset(12)] public float launchMinSpeed;
+        [FieldOffset(16)] public float randomRangeMin;
+        [FieldOffset(20)] public float randomRangeMax;
+        [FieldOffset(24)] public float lifeTime;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 88)]
+    public struct EnemySniperCommonConfig
+    {
+        [FieldOffset(0)]  public RingParameter ringParam;
+        [FieldOffset(28)] public int codeDropNumMin;
+        [FieldOffset(32)] public int codeDropNumMax;
+        [FieldOffset(36)] public int codeXDropNumMin;
+        [FieldOffset(40)] public int codeXDropNumMax;
+        [FieldOffset(44)] public float eyesightDistancePatrol;
+        [FieldOffset(48)] public float eyesightDistanceBattle;
+        [FieldOffset(52)] public float hideCoreDistance;
+        [FieldOffset(56)] public float showCoreDistance;
+        [FieldOffset(60)] public float guardShotWaitTime;
+        [FieldOffset(64)] public float guardShotAngle;
+        [FieldOffset(68)] public float aimBendSpeed;
+        [FieldOffset(72)] public float muzzleShrinkStartDist;
+        [FieldOffset(76)] public float muzzleShrinkEndDist;
+        [FieldOffset(80)] public float snipeMaxAngle;
+        [FieldOffset(84)] public float guardMaxAngle;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 68)]
+    public struct SniperCommonLevelConfig
+    {
+        [FieldOffset(0)]  public int maxHealthPoint;
+        [FieldOffset(4)]  public int maxGuardPoint;
+        [FieldOffset(8)]  public float stunTime;
+        [FieldOffset(12)] public float attackRate;
+        [FieldOffset(16)] public ushort expItemNum;
+        [FieldOffset(18)] public ushort exp;
+        [FieldOffset(20)] public float snipeRotateSpeed;
+        [FieldOffset(24)] public float chargeRotateSpeed;
+        [FieldOffset(28)] public float predictRotateSpeed;
+        [FieldOffset(32)] public float snipeWaitTime;
+        [FieldOffset(36)] public float snipeShotSpeed;
+        [FieldOffset(40)] public float snipeIntervalTime;
+        [FieldOffset(44)] public float predictTime;
+        [FieldOffset(48)] public float predictAngleRange;
+        [FieldOffset(52)] public float guardShotSpeed;
+        [FieldOffset(56)] public float guardShotRotateSpeed;
+        [FieldOffset(60)] public float guardShotMotionSpeed;
+        [FieldOffset(64)] public float guardShotLifeTime;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 72)]
+    public struct EnemySniperLevelConfig
+    {
+        [FieldOffset(0)] public int level;
+        [FieldOffset(4)] public SniperCommonLevelConfig common;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 4)]
+    public struct SniperCommonActionConfig
+    {
+        [FieldOffset(0)] public int dummy;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 8)]
+    public struct EnemySniperLevelBandConfig
+    {
+        [FieldOffset(0)] public int level;
+        [FieldOffset(4)] public SniperCommonActionConfig common;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 488)]
+    public struct Root
+    {
+        [FieldOffset(0)]   public EnemySniperCommonConfig commonParams;
+        [FieldOffset(88)]  public unsafe fixed byte /* EnemySniperLevelConfig[5] */ _levelParams[360];
+
+        public unsafe EnemySniperLevelConfig* levelParams
+        {
+            get
+            {
+                fixed (byte* p_levelParams = _levelParams)
+                    return (EnemySniperLevelConfig*)p_levelParams;
+            }
+        }
+
+        [FieldOffset(448)] public unsafe fixed byte /* EnemySniperLevelBandConfig[5] */ _levelBands[40];
+
+        public unsafe EnemySniperLevelBandConfig* levelBands
+        {
+            get
+            {
+                fixed (byte* p_levelBands = _levelBands)
+                    return (EnemySniperLevelBandConfig*)p_levelBands;
+            }
+        }
+    }
+
+}
+Code "ActionChainStageParameter-10494105092023"
+//
+	#include "Reflection" noemit
+	#lib "Reflection"
+
+	#lib "ActionChainStageParameter"
+//
+{
+	var ActionChainStageParameterInfo = Reflection.GetDataInfo<ActionChainStageParameter.Root>("w1r03_actionchain");
+
+	if (ActionChainStageParameterInfo.pData == null)
+		return;
+
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreEasy.scoreS, 400000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreEasy.scoreA, 300000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreEasy.scoreB, 200000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreEasy.scoreC, 100000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreNormal.scoreS, 600000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreNormal.scoreA, 450000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreNormal.scoreB, 300000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreNormal.scoreC, 150000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreHard.scoreS, 600000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreHard.scoreA, 450000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreHard.scoreB, 300000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[0].scoreHard.scoreC, 150000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreEasy.scoreS, 400000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreEasy.scoreA, 300000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreEasy.scoreB, 200000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreEasy.scoreC, 100000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreNormal.scoreS, 600000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreNormal.scoreA, 450000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreNormal.scoreB, 300000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreHard.scoreS, 600000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreHard.scoreA, 450000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[1].scoreHard.scoreB, 300000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreEasy.scoreS, 400000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreEasy.scoreA, 300000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreEasy.scoreB, 200000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreEasy.scoreC, 100000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreNormal.scoreS, 600000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreNormal.scoreA, 450000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreNormal.scoreB, 300000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreNormal.scoreC, 150000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreHard.scoreS, 600000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreHard.scoreA, 450000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreHard.scoreB, 300000);
+	RFL_SET_PARAM(ActionChainStageParameterInfo, placeParam[2].scoreHard.scoreC, 150000);
+}
+
+Library "ActionChainStageParameter"
+{
+    using System.Numerics;
+    using System.Runtime.InteropServices;
+
+    [StructLayout(LayoutKind.Explicit, Size = 16)]
+    public struct ActionChainScoreThresholdParameter
+    {
+        [FieldOffset(0)]  public uint scoreS;
+        [FieldOffset(4)]  public uint scoreA;
+        [FieldOffset(8)]  public uint scoreB;
+        [FieldOffset(12)] public uint scoreC;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 68)]
+    public struct ActionChainPlaceParameter
+    {
+        [FieldOffset(0)]  public float time;
+        [FieldOffset(4)]  public ActionChainScoreThresholdParameter scoreEasy;
+        [FieldOffset(20)] public ActionChainScoreThresholdParameter scoreNormal;
+        [FieldOffset(36)] public ActionChainScoreThresholdParameter scoreHard;
+        [FieldOffset(52)] public ActionChainScoreThresholdParameter scoreVeryHard;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 1088)]
+    public struct Root
+    {
+        [FieldOffset(0)] public unsafe fixed byte /* ActionChainPlaceParameter[16] */ _placeParam[1088];
+
+        public unsafe ActionChainPlaceParameter* placeParam
+        {
+            get
+            {
+                fixed (byte* p_placeParam = _placeParam)
+                    return (ActionChainPlaceParameter*)p_placeParam;
+            }
+        }
+    }
+
+}
+Code "MiniBossBladeConfig-02325123092023"
+//
+	#include "Reflection" noemit
+	#lib "Reflection"
+
+	#lib "MiniBossBladeConfig"
+//
+{
+	var MiniBossBladeConfigInfo = Reflection.GetDataInfo<MiniBossBladeConfig.Root>("miniboss_blade01");
+
+	if (MiniBossBladeConfigInfo.pData == null)
+		return;
+
+	RFL_SET_PARAM(MiniBossBladeConfigInfo, commonParam.commonConfig.scoutDistance, 35.0f);
+}
+
+Library "MiniBossBladeConfig"
+{
+    using System.Numerics;
+    using System.Runtime.InteropServices;
+
+    [StructLayout(LayoutKind.Explicit, Size = 64)]
+    public struct MiniBossCommonConfig
+    {
+        [FieldOffset(0)]  public float scoutDistance;
+        [FieldOffset(4)]  public float scoutDistanceOutside;
+        [FieldOffset(8)]  public float zoomDistance;
+        [FieldOffset(16)] public Vector3 zoomOffset;
+        [FieldOffset(32)] public Vector3 zoomAngle;
+        [FieldOffset(48)] public float zoomFov;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 48)]
+    public struct MiniBossBladeCommonAIParam
+    {
+        [FieldOffset(0)]  public float backRange;
+        [FieldOffset(4)]  public float standRange;
+        [FieldOffset(8)]  public float shortRange;
+        [FieldOffset(12)] public float middleRange;
+        [FieldOffset(16)] public float runEndDistance;
+        [FieldOffset(20)] public float dashEndDistance;
+        [FieldOffset(24)] public float parryRange;
+        [FieldOffset(28)] public float specialBeginDisappearTime;
+        [FieldOffset(32)] public float specialEndDisappearTime;
+        [FieldOffset(36)] public float endWarpWaitTime;
+        [FieldOffset(40)] public float shiftTimeMin;
+        [FieldOffset(44)] public float shiftTimeMax;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 112)]
+    public struct MiniBossBladeCommonParam
+    {
+        [FieldOffset(0)]  public MiniBossCommonConfig commonConfig;
+        [FieldOffset(64)] public MiniBossBladeCommonAIParam ai;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 52)]
+    public struct MiniBossLevelCommonConfig
+    {
+        [FieldOffset(0)]  public int maxHealthPoint;
+        [FieldOffset(4)]  public unsafe fixed float maxStunPoint[3];
+        [FieldOffset(16)] public float stunDecreaseStartTime;
+        [FieldOffset(20)] public float stunDecreaseSpeed;
+        [FieldOffset(24)] public unsafe fixed float maxStaggerPoint[3];
+        [FieldOffset(36)] public float staggerDecreaseStartTime;
+        [FieldOffset(40)] public float staggerDecreaseSpeed;
+        [FieldOffset(44)] public float attackRate;
+        [FieldOffset(48)] public ushort expItemNum;
+        [FieldOffset(50)] public ushort exp;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 36)]
+    public struct MiniBossBladeLevelCommonParam
+    {
+        [FieldOffset(0)]  public float angryHpRatio;
+        [FieldOffset(4)]  public float stunTime;
+        [FieldOffset(8)]  public float downTime;
+        [FieldOffset(12)] public float strikeComboTimer;
+        [FieldOffset(16)] public float cyloopComboTimer;
+        [FieldOffset(20)] public float blowupComboTimer;
+        [FieldOffset(24)] public float attackMotionSpeed;
+        [FieldOffset(28)] public float preliminaryMotionSpeed;
+        [FieldOffset(32)] public float ghostPreliminaryMotionSpeed;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 60)]
+    public struct MiniBossBladeLevelAIParam
+    {
+        [FieldOffset(0)]  public float firstContactWait;
+        [FieldOffset(4)]  public float specialAttackInterval;
+        [FieldOffset(8)]  public float shortRangeIntervalMin;
+        [FieldOffset(12)] public float shortRangeIntervalMax;
+        [FieldOffset(16)] public float middleRangeIntervalMin;
+        [FieldOffset(20)] public float middleRangeIntervalMax;
+        [FieldOffset(24)] public float counterIntervalMin;
+        [FieldOffset(28)] public float counterIntervalMax;
+        [FieldOffset(32)] public float afterDashIntervalMin;
+        [FieldOffset(36)] public float afterDashIntervalMax;
+        [FieldOffset(40)] public float parryIntervalMin;
+        [FieldOffset(44)] public float parryIntervalMax;
+        [FieldOffset(48)] public float parryDuration;
+        [FieldOffset(52)] public float slashComboCoolTime;
+        [FieldOffset(56)] public float ghostDashSlashCoolTime;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 1)]
+    public struct MiniBossBladeSpecialAttackParam
+    {
+        [FieldOffset(0)] public byte spawnNum;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 156)]
+    public struct MiniBossBladeLevelParam
+    {
+        [FieldOffset(0)]   public int level;
+        [FieldOffset(4)]   public MiniBossLevelCommonConfig common;
+        [FieldOffset(56)]  public MiniBossBladeLevelCommonParam general;
+        [FieldOffset(92)]  public MiniBossBladeLevelAIParam ai;
+        [FieldOffset(152)] public MiniBossBladeSpecialAttackParam special;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 60)]
+    public struct MiniBossBladeLevelPhaseAction
+    {
+        [FieldOffset(0)]  public float verticalSlashRate;
+        [FieldOffset(4)]  public float horizontalSlashRate;
+        [FieldOffset(8)]  public float slashComboRate;
+        [FieldOffset(12)] public float backSlashRate;
+        [FieldOffset(16)] public float dashRate;
+        [FieldOffset(20)] public float dashSlashRate;
+        [FieldOffset(24)] public float ghostDashSlashRate;
+        [FieldOffset(28)] public float specialAttackRate;
+        [FieldOffset(32)] public bool useTimeStopAttack;
+        [FieldOffset(36)] public float guardBeginTime;
+        [FieldOffset(40)] public float guardJumpLaserRate;
+        [FieldOffset(44)] public float parryJumpLaserRate;
+        [FieldOffset(48)] public float cyloopJumpLaserRate;
+        [FieldOffset(52)] public float doubleJumpLaserRate;
+        [FieldOffset(56)] public bool useParry;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 124)]
+    public struct MiniBossBladeLevelBand
+    {
+        [FieldOffset(0)] public uint level;
+        [FieldOffset(4)] public unsafe fixed byte /* MiniBossBladeLevelPhaseAction[2] */ _phases[120];
+
+        public unsafe MiniBossBladeLevelPhaseAction* phases
+        {
+            get
+            {
+                fixed (byte* p_phases = _phases)
+                    return (MiniBossBladeLevelPhaseAction*)p_phases;
+            }
+        }
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 28)]
+    public struct RingParameter
+    {
+        [FieldOffset(0)]  public float suckedTime;
+        [FieldOffset(4)]  public float launchAngle;
+        [FieldOffset(8)]  public float launchMaxSpeed;
+        [FieldOffset(12)] public float launchMinSpeed;
+        [FieldOffset(16)] public float randomRangeMin;
+        [FieldOffset(20)] public float randomRangeMax;
+        [FieldOffset(24)] public float lifeTime;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 1552)]
+    public struct Root
+    {
+        [FieldOffset(0)]    public MiniBossBladeCommonParam commonParam;
+        [FieldOffset(112)]  public unsafe fixed byte /* MiniBossBladeLevelParam[5] */ _levelParams[780];
+
+        public unsafe MiniBossBladeLevelParam* levelParams
+        {
+            get
+            {
+                fixed (byte* p_levelParams = _levelParams)
+                    return (MiniBossBladeLevelParam*)p_levelParams;
+            }
+        }
+
+        [FieldOffset(892)]  public unsafe fixed byte /* MiniBossBladeLevelBand[5] */ _levelBands[620];
+
+        public unsafe MiniBossBladeLevelBand* levelBands
+        {
+            get
+            {
+                fixed (byte* p_levelBands = _levelBands)
+                    return (MiniBossBladeLevelBand*)p_levelBands;
+            }
+        }
+
+        [FieldOffset(1512)] public RingParameter ringParam;
+    }
+
+}
+
+Code "IslandParameter-11421919122023"
+//
+	#include "Reflection" noemit
+
+	#lib "Reflection"
+	#lib "IslandParameter"
+//
+{
+	var IslandParameterInfo = Reflection.GetDataInfo<IslandParameter.Root>("island_param");
+
+	if (IslandParameterInfo.pData == null)
+		return;
+
+	RFL_SET_PARAM(IslandParameterInfo, portalExtraKeyNum, 0);
+}
+
+Library "IslandParameter"
+{
+    #load "System.Numerics.dll"
+
+    using System.Numerics;
+    using System.Runtime.InteropServices;
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x02)]
+    public struct ChaosEmeraldStorageParam
+    {
+        [FieldOffset(0x00)] public bool isEnable;
+        [FieldOffset(0x01)] public sbyte useKeyNum;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x0E)]
+    public struct IslandParam
+    {
+        [FieldOffset(0x00)] public unsafe fixed byte /* ChaosEmeraldStorageParam[7] */ _storages[14];
+
+        public unsafe ChaosEmeraldStorageParam* storages
+        {
+            get
+            {
+                fixed (byte* p_storages = _storages)
+                    return (ChaosEmeraldStorageParam*)p_storages;
+            }
+        }
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x02)]
+    public struct ExtraTowerParam
+    {
+        [FieldOffset(0x00)] public bool isEnable;
+        [FieldOffset(0x01)] public sbyte useKeyNum;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x0A)]
+    public struct ExtraIslandParam
+    {
+        [FieldOffset(0x00)] public unsafe fixed byte /* ExtraTowerParam[5] */ _extratowers[10];
+
+        public unsafe ExtraTowerParam* extratowers
+        {
+            get
+            {
+                fixed (byte* p_extratowers = _extratowers)
+                    return (ExtraTowerParam*)p_extratowers;
+            }
+        }
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x10)]
+    public struct KodamaCommonParam
+    {
+        [FieldOffset(0x00)] public float takableRange;
+        [FieldOffset(0x04)] public float fadeTime;
+        [FieldOffset(0x08)] public float chestJumpOutFadeTime;
+        [FieldOffset(0x0C)] public float tutorialDelayTime;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x18)]
+    public struct KodamaFollowParam
+    {
+        [FieldOffset(0x00)] public sbyte maxFollowNum;
+        [FieldOffset(0x04)] public float speed;
+        [FieldOffset(0x08)] public float rotateSpeed;
+        [FieldOffset(0x0C)] public float stopDistance;
+        [FieldOffset(0x10)] public float vanishDistance;
+        [FieldOffset(0x14)] public float respawnStandTime;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x28)]
+    public struct KodamaNormalParam
+    {
+        [FieldOffset(0x00)] public KodamaCommonParam common;
+        [FieldOffset(0x10)] public KodamaFollowParam follow;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x1C)]
+    public struct KodamaElderParam
+    {
+        [FieldOffset(0x00)] public unsafe fixed int levelupKodamaNum[3];
+        [FieldOffset(0x0C)] public unsafe fixed int levelupKodamaNumFriends[3];
+        [FieldOffset(0x18)] public int amyRequiredKodamaNum;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x0C)]
+    public struct KodamaHermitLvUpParam
+    {
+        [FieldOffset(0x00)] public unsafe fixed int difficulty[3];
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x94C)]
+    public struct KodamaHermitParam
+    {
+        [FieldOffset(0x00)] public unsafe fixed byte /* KodamaHermitLvUpParam[99] */ _levelupSeedNum[1188];
+
+        public unsafe KodamaHermitLvUpParam* levelupSeedNum
+        {
+            get
+            {
+                fixed (byte* p_levelupSeedNum = _levelupSeedNum)
+                    return (KodamaHermitLvUpParam*)p_levelupSeedNum;
+            }
+        }
+
+        [FieldOffset(0x4A4)] public unsafe fixed byte /* KodamaHermitLvUpParam[99] */ _levelupSeedNumFriends[1188];
+
+        public unsafe KodamaHermitLvUpParam* levelupSeedNumFriends
+        {
+            get
+            {
+                fixed (byte* p_levelupSeedNumFriends = _levelupSeedNumFriends)
+                    return (KodamaHermitLvUpParam*)p_levelupSeedNumFriends;
+            }
+        }
+
+        [FieldOffset(0x948)] public int amyRequiredKodamaNum;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x14)]
+    public struct KodamaNewFormParam
+    {
+        [FieldOffset(0x00)] public float takableRange;
+        [FieldOffset(0x04)] public float colliderRange;
+        [FieldOffset(0x08)] public float fadeTime;
+        [FieldOffset(0x0C)] public float spaceVertical;
+        [FieldOffset(0x10)] public float spaceHorizontal;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0xA30)]
+    public struct KodamaParam
+    {
+        [FieldOffset(0x00)] public KodamaNormalParam normal;
+        [FieldOffset(0x28)] public KodamaElderParam elder;
+        [FieldOffset(0x44)] public KodamaHermitParam hermit;
+        [FieldOffset(0x990)] public unsafe fixed byte /* KodamaNewFormParam[8] */ _newform[160];
+
+        public unsafe KodamaNewFormParam* newform
+        {
+            get
+            {
+                fixed (byte* p_newform = _newform)
+                    return (KodamaNewFormParam*)p_newform;
+            }
+        }
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0x08)]
+    public struct NpcParam
+    {
+        [FieldOffset(0x00)] public int inputSequenceItemNumShort;
+        [FieldOffset(0x04)] public int inputSequenceItemNumMiddle;
+    }
+
+    [StructLayout(LayoutKind.Explicit, Size = 0xA8C)]
+    public struct Root
+    {
+        [FieldOffset(0x00)] public unsafe fixed byte /* IslandParam[5] */ _islands[70];
+
+        public unsafe IslandParam* islands
+        {
+            get
+            {
+                fixed (byte* p_islands = _islands)
+                    return (IslandParam*)p_islands;
+            }
+        }
+
+        [FieldOffset(0x46)] public ExtraIslandParam extraIsland;
+        [FieldOffset(0x50)] public KodamaParam kodama;
+        [FieldOffset(0xA80)] public NpcParam npc;
+        [FieldOffset(0xA88)] public int portalExtraKeyNum;
+    }
+
+}
