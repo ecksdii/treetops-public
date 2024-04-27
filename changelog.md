@@ -1,3 +1,9 @@
+## Tree Tops 1.1.1
+- General: Fixed rare bug where the player is given more Emerald keys than intended.
+- General: Various bugfixes.
+- Open Zone: Improved Knuckles-specific climbable wall collision.
+- Open Zone: Tweaked Soldier territories.
+
 ## Tree Tops 1.1
 - Audio: Ambient audio tweaks across all levels.
 - Audio: Fixed wrong music playing upon switching Islands as characters other than Sonic.
