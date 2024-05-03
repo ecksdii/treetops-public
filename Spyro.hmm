@@ -62,7 +62,7 @@ Code "Tree Tops - Main text" by "ecksdii"
 	
     Converse.Redirect("treetops_hint_launch", "Ramp Launching");
     Converse.Redirect("treetops_hint_launch1_body", "Holding down <image name=\"button_right_trigger_Wh\" /> while running off an edge will launch Sonic while fully retaining his forward momentum for a short time.\n\nLaunching can be performed on any inclines that are steep enough, plenty of which can be found on the Island.");
-    Converse.Redirect("treetops_hint_launch2_body", "Objects like wooden spikes, hut roofs, broken stone walls and some parts of trees can also be used for Ramp Launching.");
+    Converse.Redirect("treetops_hint_launch2_body", "Objects like wooden spikes, hut roofs, broken stone walls and some parts of trees can also be used for Ramp Launching.\n\nHowever, they may require more precision when it comes to the angle of the launch.");
 	
     Converse.Redirect("treetops_objective_challenge", "Complete the Challenges");
     Converse.Redirect("treetops_objective_island", "Island Unlocked");

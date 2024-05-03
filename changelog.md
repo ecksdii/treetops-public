@@ -1,3 +1,10 @@
+## Tree Tops 1.1.2
+- Cyber Space: Lowered delay for disappearing barriers.
+- Cyber Space: Improved collision in 1-1.
+- General: Major tweaks to stage normals, resulting in a less blocky appearance (most notably, in interiors).
+- Open Zone: Knuckles can now climb walls on the Boss Rush Island.
+- Open Zone: Improved collision in the Hub.
+
 ## Tree Tops 1.1.1
 - General: Fixed rare bug where the player is given more Emerald keys than intended.
 - General: Various bugfixes.
