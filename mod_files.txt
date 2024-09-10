@@ -1,11 +1,13 @@
 add mod.ini
 add Spyro.hmm
+add extra/raw/script/script_w1r03.pac
 add main/raw/gedit/w1r03_gedit.pac
 add main/raw/gedit/w2r01_gedit.pac
 add main/raw/gedit/w8d01_gedit.pac
 add main/raw/gedit/w8d05_gedit.pac
 add main/raw/gedit/w9d03_gedit.pac
 add main/raw/misc/islandparam.pac
+add main/raw/script/script_common.pac
 add main/raw/script/script_resident.pac
 add main/raw/script/script_w1r03.pac
 add main/raw/script/script_w2r01.pac
@@ -16,11 +18,13 @@ add main/raw/stage/w2r01/w2r01_trr_s00.pac
 add main/raw/stage/w8d01/w8d01_misc.pac
 add main/raw/stage/w8d01/w8d01_trr_s00.pac
 add main/raw/stage/w8d05/w8d05_misc.pac
+add main/raw/stage/w8d05/w8d05_obj.pac
 add main/raw/stage/w8d05/w8d05_trr_density.pac
 add main/raw/stage/w8d05/w8d05_trr_s00.pac
 add main/raw/stage/w9d03/w9d03_misc.pac
 add main/raw/stage/w9d03/w9d03_trr_density.pac
 add main/raw/stage/w9d03/w9d03_trr_s00.pac
+add main/raw/text/text_RichPresence_en.pac
 add main/raw/ui/ui_common.pac
 add music/psx/raw/general/resident_general/bgm.acb
 add music/psx/raw/sound/custom_sound/bgm_custom.acb
@@ -28,3 +32,7 @@ add music/psx/raw/sound/cyber_sound/bgm_cyber.acb
 add music/reignited/raw/general/resident_general/bgm.acb
 add music/reignited/raw/sound/custom_sound/bgm_custom.acb
 add music/reignited/raw/sound/cyber_sound/bgm_cyber.acb
+add save/savedata/extra-auto0/gamedata.sav
+add save/savedata/extra-manual0/gamedata.sav
+add save/savedata/extra-manual1/gamedata.sav
+add save/savedata/extra-manual2/gamedata.sav

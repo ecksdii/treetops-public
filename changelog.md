@@ -1,3 +1,33 @@
+## Tree Tops 1.2
+- Cyber Space: Added a Switch radar, enabled by changing the difficulty to Easy
+- Cyber Space: Added lifelines to certain Red Ring sequences in 1-1 and 1-2
+- Cyber Space: Fixed Animals and various Enemies floating above the ground
+- Cyber Space: Increased the available time in Silver Moon Ring missions by ~10%
+- Cyber Space: Overhauled 1-1 and 1-3 interior lighting
+- Cyber Space: Reduced Cyber Corruption effect when entering levels
+- General: Added camera adjustments to 1-1's Red Ring sequences and the Hub pulley
+- General: Added warnings for using certain Codes
+- General: 'Cyber Space Power Boost' now always shows up in the Options menu
+- General: Fixed crash related to text overlays
+- General: Fixed various gaps in geometry
+- General: Tweaked audio volume for both soundtracks
+- General: Tweaked collision in the Hub and every Cyber Space level
+- General: Updated save files with enabled Auto Combo option and skipped mandatory Training Simulator pop-ups (the update server only updates the Another Story slots in order to not erase existing progress, you may see a mandatory training pop-up appear on older saves)
+- General: Updated Toasty stage preview image
+- Open Zone: Action Chain Challenges no longer require the Island to be reloaded to appear
+- Open Zone: Added more guide rings meant for Ramp Launching
+- Open Zone: Challenge Markers now reflect current progress without requiring an Island reload
+- Open Zone: Elder Koco is now always present in the Hub and functions as a Guide/Tutorial NPC (similar to the Information Pod from Sonic Generations), aswell as the 100% reward from previous mod versions
+- Open Zone: Enabled training tips for Red Pillar and Sumo
+- Open Zone: Fixed an instance where the Bubble enemy won't let the player enter Portals
+- Open Zone: Fixed being able to open the map earlier than intended
+- Open Zone: Fixed other characters being able to enter the Boss Rush stage early
+- Open Zone: Guide rings meant for Ramp Launching now respawn after 3 seconds
+- Open Zone: Hint rings now respawn after moving a certain distance away from them
+- Open Zone: Restored the Time Trial time requirements from the SHC2023 version
+- Open Zone: Tweaked starting cameras for both Time Trials
+- Open Zone: Tweaked tutorial text
+
 ## Tree Tops 1.1.2
 - Cyber Space: Lowered delay for disappearing barriers.
 - Cyber Space: Improved collision in 1-1.

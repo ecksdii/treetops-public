@@ -37,41 +37,6 @@ Code "Tree Tops - Jukebox text" by "ecksdii"
     Converse.Redirect("musicselect_songtitle_23", "Gnasty's Loot");
     Converse.Redirect("musicselect_songtitle_24", "Credits");
 }
-Code "Tree Tops - Main text" by "ecksdii"
-//
-    #lib "Converse"
-//
-{
-    Converse.Redirect("cyber_100_percent", "Congratulations!");
-    Converse.Redirect("cyber_100_percent_body", "You have fully completed all available Cyber Space stages!\n\nThe ability to swap Characters in the Open Zone has now been unlocked and can be accessed by finding Elder Koco.");
-	
-    Converse.Redirect("cyber_extreme", "Seeking a bigger challenge?");
-    Converse.Redirect("cyber_extreme_body", "Try enabling the 'Always Use Extreme Rank Times' code in HedgeModManager!\n\nThese rank times have been specifically designed around the Power Boost and Spin Dash, so it's recommended to have those unlocked beforehand.\n\nOr you can be hardcore and try to get the S ranks without them, you do you.");    
-
-    Converse.Redirect("cyber_hint_switch_count3", "In this level, the goal ring will appear upon activating 3 Switches.");
-    Converse.Redirect("cyber_hint_switch_count5", "In this level, the goal ring will appear upon activating 5 Switches.\n\nSome switches are protected by Egg Robos and/or hidden Crabmeats.");   
-	
-    Converse.Redirect("hello_dataminers", "Oh, my PKCells...");
-	
-    Converse.Redirect("thanks_for_playing", "Thanks for Playing!");
-    Converse.Redirect("thanks_for_playing_body", "I hope you've enjoyed this level pack!\n\nThe ability to switch islands has now been unlocked, so go back and complete the remaining Challenges will ya?");
-	
-    Converse.Redirect("toasty_miniboss_ninja", "Defeat KUNOICHI");
-    Converse.Redirect("toasty_miniboss_sumo", "Defeat SUMO");
-    Converse.Redirect("toasty_miniboss_tower", "Defeat THE SILVER HAMMER");
-	
-    Converse.Redirect("treetops_hint_launch", "Ramp Launching");
-    Converse.Redirect("treetops_hint_launch1_body", "Holding down <image name=\"button_right_trigger_Wh\" /> while running off an edge will launch Sonic while fully retaining his forward momentum for a short time.\n\nLaunching can be performed on any inclines that are steep enough, plenty of which can be found on the Island.");
-    Converse.Redirect("treetops_hint_launch2_body", "Objects like wooden spikes, hut roofs, broken stone walls and some parts of trees can also be used for Ramp Launching.\n\nHowever, they may require more precision when it comes to the angle of the launch.");
-	
-    Converse.Redirect("treetops_objective_challenge", "Complete the Challenges");
-    Converse.Redirect("treetops_objective_island", "Island Unlocked");
-    Converse.Redirect("treetops_objective_island_body", "Restoring power to the island has re-activated all Cyber Space portals and disabled all barriers.\n\nAction Chain Challenges will unlock upon reloading the island (dying, entering Cyber Space, reloading the save).");
-    Converse.Redirect("treetops_objective_spring", "Head to the top of the Spawn Tree");
-    Converse.Redirect("treetops_objective_switch", "Activate the Switches");
-    Converse.Redirect("treetops_objective_switch_body", "The island isn't completely operational in its current state.\nFind the 3 Ancient Switches to restore power to the island.");
-    Converse.Redirect("treetops_objective_switch_portal", "The Cyber Space portals cannot function until power to the Island is restored.");   
-}
 Code "Tree Tops - Map text" by "ecksdii"
 //
     #lib "Converse"
@@ -87,8 +52,8 @@ Code "Tree Tops - Tutorial text" by "ecksdii"
 {
     Converse.Redirect("toast_get_lightpillars_add", "Cleared all Missions!");
     Converse.Redirect("ko1600_050", "What may I do for you?");
-    Converse.Redirect("tu1000_660", "Character Swap");
-    Converse.Redirect("tu1000_665", "While playing as the other Characters, Cyber Space will be unavailable and some Challenges may not be beatable.");
+    Converse.Redirect("tu1000_660", "Elder Koco");
+    Converse.Redirect("tu1000_665", "Talk to Elder Koco to get useful tips about the Island and how it works.\nComplete his request to receive a special reward.");
 }
 
 Code "Jukebox parameters (modified, from Stillness & Motion)" by "M&M & Hyper"
@@ -265,6 +230,32 @@ Patch "Hide New Game+" by "Hyper"
 
     WriteProtected<byte>(sig, 0xEB, 0x7B);
 }
+
+Code "Tweak Mine Radar" by "ecksdii"
+//
+	#include "Reflection" noemit
+
+	#lib "Reflection"
+	#lib "SonicParameters"
+	
+	static bool _isInitialised = false;
+//
+{
+	var SonicParametersInfo = Reflection.GetDataInfo<SonicParameters.Root>("player_common");
+
+	if (SonicParametersInfo.pData == null)
+		return;
+	
+	if (!_isInitialised)
+	{
+		RFL_SET_PARAM(SonicParametersInfo, common.mine.radiusLow, 45.0f);
+		RFL_SET_PARAM(SonicParametersInfo, common.mine.radiusMedium, 30.0f);
+		RFL_SET_PARAM(SonicParametersInfo, common.mine.radiusHigh, 15.0f);
+		
+		_isInitialised = true;
+	}
+}
+
 
 Code "Enable Dodge and Parry" in "Gameplay/Cyber Space/Skills" by "Hyper" does "Enables dodging and parrying in Cyber Space for potentially recovering from a fall." 
 //
@@ -547,6 +538,43 @@ Patch "Boss Select (modified)" by "Hyper"
         5
     );
 
+}
+
+Patch "HMM Code Check (modified)" by "ZEROES_07"
+//
+    #lib "HMM"
+    using System.Windows.Forms;
+    #load "System.Windows.Forms.dll"
+//
+{
+    if (HMM.GetCodes().Contains("UI/Messages/Disable Tutorial Messages")) 
+	{
+        MessageBox.Show("Disable the code \"UI/Messages/Disable Tutorial Messages\" in order to play 'Tree Tops'.", "Code Conflict", MessageBoxButtons.OK);
+        System.Environment.Exit(0);
+    }
+    else if (HMM.GetCodes().Contains("Gameplay/Open Zone/Objects/Disable Traversal Objects in Chests")) 
+    {
+        MessageBox.Show("The code \"Gameplay/Open Zone/Objects/Disable Traversal Objects in Chests\" can cause issues with certain sequences while playing\n'Tree Tops'.\n\nIt's recommended to disable this code before playing this mod.", "Code Conflict", MessageBoxButtons.OK);
+    }   
+}
+
+Patch "Always show 'Cyber Space Power Boost' UI option" by "angryzor"
+{
+	Write<byte>(0x143DC2940, 1);
+}
+
+Patch "Use global time for all respawns" by "angryzor"
+{
+	WriteProtected<uint>(0x1402173D5, 1);
+}
+
+Patch "Force standard spawn type for ActionChain objects" by "angryzor"
+{
+	WriteProtected<uint>(0x143CBADA0, 2);
+}
+Patch "Force standard spawn type for ReleaseMap objects" by "angryzor"
+{
+	WriteProtected<uint>(0x143CBEB80, 1);
 }
 
 Code "EnemySniperConfig-02322123092023"
