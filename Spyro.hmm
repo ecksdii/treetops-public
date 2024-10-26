@@ -42,7 +42,16 @@ Code "Tree Tops - Map text" by "ecksdii"
     #lib "Converse"
 //
 {
-    Converse.Redirect("obj_ilf_clearstate_010", "Leaving Tree Tops");
+    switch (Converse.GetCurrentLanguage())
+    {
+        case Converse.Language.Polish:
+            Converse.Redirect("obj_ilf_clearstate_010", "Opuszczasz Tree Tops");
+            break;
+		
+        default:
+            Converse.Redirect("obj_ilf_clearstate_010", "Leaving Tree Tops");
+            break;		
+    }
     Converse.Redirect("obj_ilf_clearstate_020", "???");
 }
 Code "Tree Tops - Tutorial text" by "ecksdii"
@@ -50,10 +59,22 @@ Code "Tree Tops - Tutorial text" by "ecksdii"
     #lib "Converse"
 //
 {
-    Converse.Redirect("toast_get_lightpillars_add", "Cleared all Missions!");
-    Converse.Redirect("ko1600_050", "What may I do for you?");
-    Converse.Redirect("tu1000_660", "Elder Koco");
-    Converse.Redirect("tu1000_665", "Talk to Elder Koco to get useful tips about the Island and how it works.\nComplete his request to receive a special reward.");
+    switch (Converse.GetCurrentLanguage())
+    {		
+        case Converse.Language.Polish:
+			Converse.Redirect("toast_get_lightpillars_add", "Ukończono wszystkie misje!");
+			Converse.Redirect("ko1600_050", "Co mogę dla ciebie zrobić?");
+			Converse.Redirect("tu1000_660", "Koko Starszy");
+			Converse.Redirect("tu1000_665", "Porozmawiaj z Koko Starszym by poznać przydatne informacje o Wyspie.\nSpełnij jego prośbę by dostać specjalną nagrodę.");
+			break;
+			
+        default:
+			Converse.Redirect("toast_get_lightpillars_add", "Cleared all Missions!");
+			Converse.Redirect("ko1600_050", "What may I do for you?");
+			Converse.Redirect("tu1000_660", "Elder Koco");
+			Converse.Redirect("tu1000_665", "Talk to Elder Koco to get useful tips about the Island and how it works.\nComplete his request to receive a special reward.");
+			break;				
+    }
 }
 
 Code "Jukebox parameters (modified, from Stillness & Motion)" by "M&M & Hyper"
@@ -540,22 +561,26 @@ Patch "Boss Select (modified)" by "Hyper"
 
 }
 
-Patch "HMM Code Check (modified)" by "ZEROES_07"
+Patch "HMM Code Check (modified)" by "ZEROES_07" does "Shows messages about unsupported codes at game startup.\nDepending on how it's setup, this code allows the mod to work with unsupported codes but with a warning, or it intentionally terminates the game's process."
 //
     #lib "HMM"
     using System.Windows.Forms;
     #load "System.Windows.Forms.dll"
 //
 {
-    if (HMM.GetCodes().Contains("UI/Messages/Disable Tutorial Messages")) 
-	{
-        MessageBox.Show("Disable the code \"UI/Messages/Disable Tutorial Messages\" in order to play 'Tree Tops'.", "Code Conflict", MessageBoxButtons.OK);
-        System.Environment.Exit(0);
-    }
-    else if (HMM.GetCodes().Contains("Gameplay/Open Zone/Objects/Disable Traversal Objects in Chests")) 
+    if (HMM.GetCodes().Contains("Gameplay/Open Zone/Objects/Disable Traversal Objects in Chests")) 
     {
         MessageBox.Show("The code \"Gameplay/Open Zone/Objects/Disable Traversal Objects in Chests\" can cause issues with certain sequences while playing\n'Tree Tops'.\n\nIt's recommended to disable this code before playing this mod.", "Code Conflict", MessageBoxButtons.OK);
     }   
+    if (HMM.GetCodes().Contains("UI/Messages/Disable Tutorial Messages")) 
+	{
+        MessageBox.Show("The code \"UI/Messages/Disable Tutorial Messages\" removes all Hint Rings and can cause some Tutorial pop-ups to not appear.\n\nIt's recommended to disable this code before playing this mod.", "Code Conflict", MessageBoxButtons.OK);
+    }    
+	if (HMM.GetCodes().Contains("Time/Always Day") || HMM.GetCodes().Contains("Time/Always Night") || HMM.GetCodes().Contains("Time/Always Sunrise") || HMM.GetCodes().Contains("Time/Always Sunset")) 
+	{
+        MessageBox.Show("Disable any Time codes in order to play 'Tree Tops'.", "Code Conflict", MessageBoxButtons.OK);
+        System.Environment.Exit(0);
+    }
 }
 
 Patch "Always show 'Cyber Space Power Boost' UI option" by "angryzor"

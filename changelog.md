@@ -1,3 +1,26 @@
+## Tree Tops 1.3
+- Cyber Space: Added Hint Rings to let the player know Ramp Launching is possible in Cyber Space levels
+- Cyber Space: Added more shortcut objects and lifelines to all levels
+- Cyber Space: Fixed collision bug in 1-1's cave section
+- Cyber Space: Fixed Highway floor clipping through the level in 1-1
+- Cyber Space: Fixed the infamous wall gap near the guarded Switch in 1-1
+- Cyber Space: Nerfed Rocket EggRobo who appears at the end of 1-1's autorun section
+- Cyber Space: Removed the useless Spin Dash ramp near 1-1's first Red Ring
+- Cyber Space: Tweaked attack intervals for certain enemies
+- Cyber Space: Tweaked collision in 1-3
+- Cyber Space: Tweaked the mountain shortcut gap in 1-3, making it easier to perform
+- General: Added Polish translation, courtesy of Kwasior
+- General: Fixed an issue where playing the mod with non-English language settings showed no text
+- General: Fixed flashing particles when destroying Update 3 Motobugs
+- General: Tweaks to the code detection system
+- Open Zone: Fixed faulty Ramp Launching collision near Action Chain 2
+- Open Zone: Fixed more instances of enemies preventing the player from entering Cyber Space
+- Open Zone: Fixed potential softlock if the game crashes during the Island transition
+- Open Zone: Fixed Shinobi's pop-in values in the Boss Rush stage (part of an obsolete workaround)
+- Open Zone: Fixed various gaps that let the player clip through trees
+- Open Zone: Raised the ramp near the 1-1 Portal, which should make getting to the last Portal Gear easier
+- Open Zone: Tweaked Hint Ring pop-in to prevent cases where they have no collision
+
 ## Tree Tops 1.2
 - Cyber Space: Added a Switch radar, enabled by changing the difficulty to Easy
 - Cyber Space: Added lifelines to certain Red Ring sequences in 1-1 and 1-2
