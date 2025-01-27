@@ -1,3 +1,6 @@
+## Tree Tops 1.3.1
+- Added support for Sonic Frontiers v1.42
+
 ## Tree Tops 1.3
 - Cyber Space: Added Hint Rings to let the player know Ramp Launching is possible in Cyber Space levels
 - Cyber Space: Added more shortcut objects and lifelines to all levels

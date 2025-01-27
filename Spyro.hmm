@@ -467,17 +467,17 @@ Patch "Disable Jump Board Paths on Islands" in "Gameplay" by "Hyper" does "Stops
     Bridge.DisableJumpBoardPaths.IsDisabledOnIslands = true;
 }
 
-Patch "Always Respawn Enemies" in "Enemy" by "Hyper" does "Always respawns enemies and guardians when loading back into islands." 
+Patch "Always Respawn Enemies" in "Enemy" by "Hyper" does "Always respawns enemies and guardians when loading back into islands."
 //
     #lib "Memory"
 //
 {
     Memory.WriteForceJump
     (
-        /* v1.41: 0x1492CA7F4 */
+        /* v1.42: 0x149410FC4 */
         ScanSignature
         (
-            "\x0F\x88\x78\x01\x00\x00",
+            "\x0F\x88\x60\x01\x00\x00",
             "xxxxxx"
         )
     );
@@ -585,21 +585,23 @@ Patch "HMM Code Check (modified)" by "ZEROES_07" does "Shows messages about unsu
 
 Patch "Always show 'Cyber Space Power Boost' UI option" by "angryzor"
 {
-	Write<byte>(0x143DC2940, 1);
+    var debugToggleComp = ScanSignature("\x38\x05\xCC\xCC\xCC\xCC\x75\x0A", "xx????xx");
+    Write<byte>(debugToggleComp + 6 + Read<int>(debugToggleComp + 2), 1);
 }
 
 Patch "Use global time for all respawns" by "angryzor"
 {
-	WriteProtected<uint>(0x1402173D5, 1);
+    WriteProtected<uint>(ScanSignature("\xC7\x44\x24\x28\x00\x00\x00\x00\x0F\x28\xD6", "xxxxxxxxxxx") + 4, 1);
 }
 
 Patch "Force standard spawn type for ActionChain objects" by "angryzor"
 {
-	WriteProtected<uint>(0x143CBADA0, 2);
+    WriteProtected<uint>(0x143CBB110, 2);
 }
+
 Patch "Force standard spawn type for ReleaseMap objects" by "angryzor"
 {
-	WriteProtected<uint>(0x143CBEB80, 1);
+    WriteProtected<uint>(0x143CBEEF0, 1);
 }
 
 Code "EnemySniperConfig-02322123092023"
